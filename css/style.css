@@ -1,14 +1,10 @@
 body {
     background-color: #030305;
     background-image: 
-        /* Tạo hiệu ứng lưới công nghệ mờ tinh tế (Tech Grid) */
         linear-gradient(rgba(255, 115, 0, 0.04) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 115, 0, 0.04) 1px, transparent 1px),
-        /* Quầng sáng cam rực rỡ ở góc trên bên trái */
         radial-gradient(circle at 15% 20%, rgba(255, 102, 0, 0.25) 0%, transparent 45%),
-        /* Quầng sáng ấm áp ở góc dưới bên phải */
         radial-gradient(circle at 85% 80%, rgba(234, 88, 12, 0.2) 0%, transparent 50%),
-        /* Nền chuyển màu gradient sâu thẳm tổng thể */
         linear-gradient(135deg, #030305 0%, #0d0a08 50%, #030305 100%);
     background-size: 50px 50px, 50px 50px, 100% 100%, 100% 100%, 100% 100%;
     background-attachment: fixed;
