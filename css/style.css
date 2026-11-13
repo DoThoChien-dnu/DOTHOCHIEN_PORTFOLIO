@@ -1,9 +1,16 @@
 body {
-    background-color: #09090b;
+    background-color: #030305;
     background-image: 
-        radial-gradient(circle at 12% 25%, rgba(255, 115, 0, 0.28) 0%, transparent 45%),
-        radial-gradient(circle at 88% 75%, rgba(234, 88, 12, 0.22) 0%, transparent 50%),
-        linear-gradient(135deg, #09090b 0%, #141210 50%, #09090b 100%);
+        /* Tạo hiệu ứng lưới công nghệ mờ tinh tế (Tech Grid) */
+        linear-gradient(rgba(255, 115, 0, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 115, 0, 0.04) 1px, transparent 1px),
+        /* Quầng sáng cam rực rỡ ở góc trên bên trái */
+        radial-gradient(circle at 15% 20%, rgba(255, 102, 0, 0.25) 0%, transparent 45%),
+        /* Quầng sáng ấm áp ở góc dưới bên phải */
+        radial-gradient(circle at 85% 80%, rgba(234, 88, 12, 0.2) 0%, transparent 50%),
+        /* Nền chuyển màu gradient sâu thẳm tổng thể */
+        linear-gradient(135deg, #030305 0%, #0d0a08 50%, #030305 100%);
+    background-size: 50px 50px, 50px 50px, 100% 100%, 100% 100%, 100% 100%;
     background-attachment: fixed;
     color: #ffffff;
     min-height: 100vh;
