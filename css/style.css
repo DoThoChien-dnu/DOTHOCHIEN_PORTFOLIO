@@ -91,8 +91,7 @@ body {
 }
 
 .section {
-    padding: 100px 8%;
-    min-height: 80vh;
+    padding: 60px 8%;
     border-top: 1px solid rgba(255, 122, 0, 0.15);
 }
 
