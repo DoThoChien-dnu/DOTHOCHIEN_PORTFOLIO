@@ -63,13 +63,12 @@ body {
     height: 350px;
 }
 
-button, .btn, nav a {
-    transition: all 0.3s ease;
-}
-
-button:hover, .btn:hover, nav a:hover {
-    color: #ffffff;
-    background-color: #ff7a00;
+nav a:hover,
+button:hover,
+.btn:hover {
+    background-color: #ff7a00 !important;
+    color: white !important;
     transform: translateY(-4px);
-    box-shadow: 0 5px 15px rgba(255, 122, 0, 0.4);
+    box-shadow: 0 5px 15px rgba(255, 122, 0, 0.5);
+    transition: all 0.3s ease;
 }
