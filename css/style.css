@@ -1,0 +1,77 @@
+
+/* THIẾT KẾ CHUNG */
+
+body {
+    background-color: #101820;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* THANH MENU */
+
+.header {
+    background-color: #101820;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    color: orange;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* PHẦN NỘI DUNG */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+/* PHẦN CHỮ */
+
+.text {
+    width: 50%;
+}
+
+.text h3 {
+    color: orange;
+}
+
+.text h1 {
+    font-size: 45px;
+}
+
+.text h2 {
+    color: orange;
+}
+
+.text p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* NÚT TÌM HIỂU */
+
+.text a {
+    background-color: orange;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/* ẢNH ĐẠI DIỆN */
+
+.image img {
+    width: 300px;
+    height: 350px;
+}
