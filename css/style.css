@@ -1,23 +1,18 @@
 body {
-    background:
-        radial-gradient(
-            circle at 15% 20%,
-            rgba(255, 122, 0, 0.13),
-            transparent 35%
-        ),
-        radial-gradient(
-            circle at 85% 70%,
-            rgba(255, 80, 0, 0.10),
-            transparent 35%
-        ),
-        linear-gradient(135deg, #080808, #151515, #080808);
-
-    color: white;
+    background-color: #09090b;
+    background-image: 
+        radial-gradient(circle at 12% 25%, rgba(255, 115, 0, 0.28) 0%, transparent 45%),
+        radial-gradient(circle at 88% 75%, rgba(234, 88, 12, 0.22) 0%, transparent 50%),
+        linear-gradient(135deg, #09090b 0%, #141210 50%, #09090b 100%);
+    background-attachment: fixed;
+    color: #ffffff;
     min-height: 100vh;
 }
 
 .header {
-    background-color: #101820;
+    background-color: rgba(15, 15, 18, 0.75);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 122, 0, 0.2);
     padding: 25px;
     display: flex;
     justify-content: space-between;
